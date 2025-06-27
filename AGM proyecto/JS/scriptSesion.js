@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (!nameRegex.test(value)) {
         showError(
           fieldId + "-error",
-          `${fieldName} no debe contener números ni símbolos, y máximo 10 letras`
+          `${fieldName} no debe contener números ni símbolos, y máximo 20 letras`
         );
         return false;
       }
@@ -164,7 +164,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     alert("¡Registro exitoso! Serás redirigido a la página principal.");
     setTimeout(() => {
-     window.location.href = "index.html";
+      window.location.href = "index.html";
     }, 1000);
   });
 
