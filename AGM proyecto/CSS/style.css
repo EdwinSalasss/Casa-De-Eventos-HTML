@@ -553,13 +553,13 @@ body {
   border: 1px solid #ddd;
 }
 
-.mapa-responsive iframe {
+.iframe {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
+  width: 600;
+  height: 450;
+  border: 0;
 }
 
 /* Responsive para index.html */
@@ -586,7 +586,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .mapa-responsive {
+  .iframe {
     padding-top: 60%;
   }
 }
@@ -604,7 +604,7 @@ body {
   .footer-content {
     padding: 0 15px;
   }
-  .mapa-responsive {
+  .iframe {
     padding-top: 75%;
     margin: 20px 0;
   }
@@ -625,7 +625,7 @@ body {
     width: 150px;
   }
 
-  .mapa-responsive {
+  .iframe {
     padding-top: 100%;
     border-radius: 8px;
   }
